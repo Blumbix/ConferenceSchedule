@@ -1,0 +1,27 @@
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: calc(100vh - 135px);
+}
+.site-card-border-less-wrapper {
+    background: #141414;
+    padding: 2px;
+}
+.card-content {
+    max-width: 500px;
+    padding: 1px;
+}
+.logo {
+    background: white;
+    margin: 0px 16px 16px 16px;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: #141414;
+}
+[data-theme="dark"] .site-layout-content {
+    background: #141414;
+}
+[data-theme="dark"] .logo {
+    background: rgba(255,255,255,0.3);
+}
